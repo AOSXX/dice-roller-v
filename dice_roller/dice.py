@@ -6,4 +6,5 @@ class Dice():
 
 if __name__ == "__main__":
     dice = Dice()
-    print(dice.roll())
+    number = dice.roll()
+    print(number)
